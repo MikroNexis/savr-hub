@@ -1,0 +1,19 @@
+{
+  "toolchainPath": "d:\\ncs\\toolchains\\4f5b6ad6dd",
+  "sdkPath": "d:\\ncs\\v3.4.1",
+  "board": "adafruit_feather_nrf52840/nrf52840",
+  "boardDir": "d:\\ncs\\v3.4.1\\zephyr\\boards\\adafruit\\feather_nrf52840",
+  "boardDirs": [
+    "d:\\ncs\\v3.4.1\\zephyr\\boards\\adafruit\\feather_nrf52840"
+  ],
+  "optimizations": "default",
+  "cmakeArgs": [],
+  "confFiles": [
+    "prj.conf"
+  ],
+  "buildDirectory": "build_AdafruitFeather",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

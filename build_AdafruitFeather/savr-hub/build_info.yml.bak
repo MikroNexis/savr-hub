@@ -1,0 +1,54 @@
+cmake:
+  application:
+    configuration-dir: 'D:/Projects/SAVRHub/savr-hub'
+    source-dir: 'D:/Projects/SAVRHub/savr-hub'
+  board:
+    name: 'adafruit_feather_nrf52840'
+    path:
+     - 'D:/ncs/v3.4.1/zephyr/boards/adafruit/feather_nrf52840'
+    qualifiers: 'nrf52840'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'D:/ncs/v3.4.1/nrf/dts/bindings'
+     - 'D:/ncs/v3.4.1/zephyr/dts/bindings'
+    files:
+     - 'D:/ncs/v3.4.1/zephyr/boards/adafruit/feather_nrf52840/adafruit_feather_nrf52840.dts'
+    include-dirs:
+     - 'D:/ncs/v3.4.1/nrf/include'
+     - 'D:/ncs/v3.4.1/nrf/dts/common'
+     - 'D:/ncs/v3.4.1/nrf/dts/riscv'
+     - 'D:/ncs/v3.4.1/nrf/dts/arm'
+     - 'D:/ncs/v3.4.1/nrf/dts'
+     - 'D:/ncs/v3.4.1/zephyr/include'
+     - 'D:/ncs/v3.4.1/zephyr/include/zephyr'
+     - 'D:/ncs/v3.4.1/zephyr/dts/common'
+     - 'D:/ncs/v3.4.1/zephyr/dts/vendor'
+     - 'D:/ncs/v3.4.1/zephyr/dts/rx'
+     - 'D:/ncs/v3.4.1/zephyr/dts/x86'
+     - 'D:/ncs/v3.4.1/zephyr/dts/xtensa'
+     - 'D:/ncs/v3.4.1/zephyr/dts/sparc'
+     - 'D:/ncs/v3.4.1/zephyr/dts/riscv'
+     - 'D:/ncs/v3.4.1/zephyr/dts/posix'
+     - 'D:/ncs/v3.4.1/zephyr/dts/arm64'
+     - 'D:/ncs/v3.4.1/zephyr/dts/arm'
+     - 'D:/ncs/v3.4.1/zephyr/dts/arc'
+     - 'D:/ncs/v3.4.1/zephyr/dts'
+  kconfig:
+    files:
+     - 'D:/ncs/v3.4.1/zephyr/boards/adafruit/feather_nrf52840/adafruit_feather_nrf52840_defconfig'
+     - 'D:/Projects/SAVRHub/savr-hub/prj.conf'
+     - 'D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/savr-hub/zephyr/misc/generated/extra_kconfig_options.conf'
+     - 'D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/savr-hub/zephyr/.config.sysbuild'
+    user-files:
+     - 'prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'D:/ncs/toolchains/4f5b6ad6dd/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: 'D:/ncs/v3.4.1/modules/hal/nordic/nrfx/bsp/stable/mdk/nrf52840.svd'
+  zephyr:
+    version: '4.4.2'
+    zephyr-base: 'D:/ncs/v3.4.1/zephyr'
+version: '0.1.0'

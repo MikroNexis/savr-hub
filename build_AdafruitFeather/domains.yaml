@@ -1,0 +1,7 @@
+default: savr-hub
+build_dir: D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather
+domains:
+  - name: savr-hub
+    build_dir: D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/savr-hub
+flash_order:
+  - savr-hub

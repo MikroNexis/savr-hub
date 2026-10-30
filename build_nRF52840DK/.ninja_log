@@ -1,0 +1,19 @@
+# ninja log v7
+49	196	8150555518612835	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-mkdir	4b5e5e180bb04715
+49	196	8150555518612835	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-mkdir	4b5e5e180bb04715
+196	314	8150555520202625	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-download	3672bdf5f821173
+196	314	8150555520202625	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-download	3672bdf5f821173
+314	479	8150555521438510	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-update	89b96dd1273e1b60
+314	479	8150555521438510	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-update	89b96dd1273e1b60
+479	585	8150555522958444	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-patch	3c4b13a1b70b2ea4
+479	585	8150555522958444	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-patch	3c4b13a1b70b2ea4
+585	692	8150555524005561	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-configure	3f85951eacfe9135
+585	692	8150555524005561	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-configure	3f85951eacfe9135
+692	29440	8150555524110782	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-build	6be0064bd664208f
+692	29440	8150555524110782	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-build	6be0064bd664208f
+29440	29512	8150555811595730	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-install	5ead3e21d36fdf69
+29440	29512	8150555811595730	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-install	5ead3e21d36fdf69
+29512	29646	8150555813573533	_sysbuild/sysbuild/images/CMakeFiles/savr-hub-complete	b7158a839c4cf942
+29512	29646	8150555813573533	_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-done	b7158a839c4cf942
+29512	29646	8150555813573533	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/CMakeFiles/savr-hub-complete	b7158a839c4cf942
+29512	29646	8150555813573533	D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-done	b7158a839c4cf942

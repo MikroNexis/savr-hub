@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/CMakeFiles/savr-hub"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/CMakeFiles/savr-hub.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/CMakeFiles/savr-hub-complete.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-build.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-configure.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-download.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-install.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-mkdir.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-patch.rule"
+		},
+		{
+			"file" : "D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"savr-hub"
+		],
+		"name" : "savr-hub"
+	}
+}

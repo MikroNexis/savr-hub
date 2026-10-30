@@ -1,0 +1,25 @@
+cmake:
+  application:
+    source-dir: 'D:/ncs/v3.4.1/zephyr/share/sysbuild'
+  board:
+    name: 'adafruit_feather_nrf52840'
+    path:
+     - 'D:/ncs/v3.4.1/zephyr/boards/adafruit/feather_nrf52840'
+    qualifiers: 'nrf52840'
+    revision: ''
+  images:
+   - name: 'savr-hub'
+     source-dir: 'D:/Projects/SAVRHub/savr-hub'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/empty.conf'
+     - 'D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/empty.conf'
+    user-files:
+     - 'D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/empty.conf'
+  sysbuild: 'true'
+version: '0.1.0'
+west:
+  command: 'D:\ncs\toolchains\4f5b6ad6dd\opt\bin\Scripts\west build --build-dir d:/Projects/SAVRHub/savr-hub/build_AdafruitFeather d:/Projects/SAVRHub/savr-hub --pristine --board adafruit_feather_nrf52840/nrf52840 -- -DCONFIG_DEBUG_THREAD_INFO=y -DCONF_FILE=prj.conf'
+  topdir: 'd:\ncs\v3.4.1'
+  version: '1.5.0'

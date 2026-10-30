@@ -1,0 +1,92 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x10815
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          4515048 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         7
+  Size of section headers:           40 (bytes)
+  Number of section headers:         44
+  Section header string table index: 43
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] rom_start         PROGBITS        00000000 000120 000100 00  AX  0   0  4
+  [ 2] text              PROGBITS        00000100 000220 0295b0 00  AX  0   0  8
+  [ 3] .ARM.exidx        ARM_EXIDX       000296b0 0297d0 000008 00  AL  2   0  4
+  [ 4] initlevel         PROGBITS        000296b8 0297d8 0000d0 00   A  0   0  4
+  [ 5] device_area       PROGBITS        00029788 0298a8 0000fc 00   A  0   0  4
+  [ 6] sw_isr_table      PROGBITS        00029884 0299a4 000180 00   A  0   0  4
+  [ 7] entropy_driv[...] PROGBITS        00029a04 029b24 000008 00   A  0   0  4
+  [ 8] flash_driver[...] PROGBITS        00029a0c 029b2c 000030 00   A  0   0  4
+  [ 9] gpio_driver_[...] PROGBITS        00029a3c 029b5c 000024 00   A  0   0  4
+  [10] clock_contro[...] PROGBITS        00029a60 029b80 00001c 00   A  0   0  4
+  [11] uart_driver_[...] PROGBITS        00029a7c 029b9c 00000c 00   A  0   0  4
+  [12] bt_l2cap_fix[...] PROGBITS        00029a88 029ba8 000018 00   A  0   0  4
+  [13] bt_conn_cb_area   PROGBITS        00029aa0 029bc0 000040 00   A  0   0  4
+  [14] bt_gatt_serv[...] PROGBITS        00029ae0 029c00 000018 00   A  0   0  4
+  [15] log_const_area    PROGBITS        00029af8 029c18 000118 00   A  0   0  4
+  [16] zephyr_dbg_info   PROGBITS        00029c10 029d30 000044 00   A  0   0  4
+  [17] settings_han[...] PROGBITS        00029c54 029d74 000090 00   A  0   0  4
+  [18] tbss              NOBITS          00029ce4 029e04 000008 00 WAT  0   0  4
+  [19] rodata            PROGBITS        00029cf0 029e10 004a88 00   A  0   0 16
+  [20] .ramfunc          PROGBITS        20000000 02f078 000000 00   W  0   0  1
+  [21] datas             PROGBITS        20000000 02e898 000546 00  WA  0   0  8
+  [22] device_states     PROGBITS        20000546 02edde 000016 00  WA  0   0  1
+  [23] k_mem_slab_area   PROGBITS        2000055c 02edf4 000060 00  WA  0   0  4
+  [24] k_mutex_area      PROGBITS        200005bc 02ee54 0000c8 00  WA  0   0  4
+  [25] k_sem_area        PROGBITS        20000684 02ef1c 000010 00  WA  0   0  4
+  [26] k_fifo_area       PROGBITS        20000694 02ef2c 000014 00  WA  0   0  4
+  [27] net_buf_pool_area PROGBITS        200006a8 02ef40 000134 00  WA  0   0  4
+  [28] .comment          PROGBITS        00000000 02f078 00003f 01  MS  0   0  1
+  [29] .debug_aranges    PROGBITS        00000000 02f0b8 004238 00      0   0  8
+  [30] .debug_info       PROGBITS        00000000 0332f0 29cc6a 00      0   0  1
+  [31] .debug_abbrev     PROGBITS        00000000 2cff5a 020b04 00      0   0  1
+  [32] .debug_line       PROGBITS        00000000 2f0a5e 0691b9 00      0   0  1
+  [33] .debug_frame      PROGBITS        00000000 359c18 00bccc 00      0   0  4
+  [34] .debug_str        PROGBITS        00000000 3658e4 025056 01  MS  0   0  1
+  [35] .debug_loc        PROGBITS        00000000 38a93a 07da13 00      0   0  1
+  [36] .debug_ranges     PROGBITS        00000000 40834d 00f1e0 00      0   0  1
+  [37] .ARM.attributes   ARM_ATTRIBUTES  00000000 41752d 000032 00      0   0  1
+  [38] .last_section     PROGBITS        0002ef54 02f074 000004 00  WA  0   0  4
+  [39] bss               NOBITS          200007e0 02f0a0 003209 00  WA  0   0  8
+  [40] noinit            NOBITS          20003a00 02f0a0 003e18 00  WA  0   0 64
+  [41] .symtab           SYMTAB          00000000 417560 01e510 10     42 5123  4
+  [42] .strtab           STRTAB          00000000 435a70 018823 00      0   0  1
+  [43] .shstrtab         STRTAB          00000000 44e293 000252 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x0297d0 0x000296b0 0x000296b0 0x00008 0x00008 R   0x4
+  LOAD           0x000120 0x00000000 0x00000000 0x2e778 0x2e778 RWE 0x10
+  LOAD           0x02e898 0x20000000 0x0002e778 0x007dc 0x007dc RW  0x8
+  LOAD           0x02f074 0x0002ef54 0x0002ef54 0x00004 0x00004 RW  0x4
+  LOAD           0x000000 0x200007e0 0x200007e0 0x00000 0x07038 RW  0x40
+  TLS            0x029e04 0x00029ce4 0x00029ce4 0x00000 0x00008 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     rom_start text .ARM.exidx initlevel device_area sw_isr_table entropy_driver_api_area flash_driver_api_area gpio_driver_api_area clock_control_driver_api_area uart_driver_api_area bt_l2cap_fixed_chan_area bt_conn_cb_area bt_gatt_service_static_area log_const_area zephyr_dbg_info settings_handler_static_area rodata 
+   02     datas device_states k_mem_slab_area k_mutex_area k_sem_area k_fifo_area net_buf_pool_area 
+   03     .last_section 
+   04     bss noinit 
+   05     tbss 
+   06     

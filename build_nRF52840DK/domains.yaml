@@ -1,0 +1,7 @@
+default: savr-hub
+build_dir: D:/Projects/SAVRHub/savr-hub/build_nRF52840DK
+domains:
+  - name: savr-hub
+    build_dir: D:/Projects/SAVRHub/savr-hub/build_nRF52840DK/savr-hub
+flash_order:
+  - savr-hub

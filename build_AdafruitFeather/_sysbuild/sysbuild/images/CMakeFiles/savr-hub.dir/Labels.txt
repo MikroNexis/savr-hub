@@ -1,0 +1,13 @@
+# Target labels
+ savr-hub
+# Source files and their labels
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/CMakeFiles/savr-hub
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/CMakeFiles/savr-hub.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/CMakeFiles/savr-hub-complete.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-build.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-configure.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-download.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-install.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-mkdir.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-patch.rule
+D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/savr-hub-prefix/src/savr-hub-stamp/savr-hub-update.rule

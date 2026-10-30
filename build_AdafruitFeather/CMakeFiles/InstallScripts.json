@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/bootloader/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/firmware_loader/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/modules/nrf/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/modules/mcuboot/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/boards/cmake_install.cmake",
+		"D:/Projects/SAVRHub/savr-hub/build_AdafruitFeather/_sysbuild/sysbuild/images/soc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
