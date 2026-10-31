@@ -369,8 +369,8 @@ void update_battery_level(void)
 
     loop_counter++;
 
-    /* Decrement battery every 3 minutes (36 x 5 seconds) */
-    if (loop_counter >= 36)
+    /* Decrement battery every 1.5 minutes (18 x 5 seconds) */
+    if (loop_counter >= 18)
     {
         loop_counter = 0;
         battery_level--;
